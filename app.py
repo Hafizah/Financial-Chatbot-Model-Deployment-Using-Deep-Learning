@@ -6,6 +6,9 @@ import json
 import numpy as np
 from tensorflow.keras.models import load_model
 import random
+import nltk
+nltk.download('punkt')
+
 app = Flask(__name__)
 def bag_of_words(s, words):
     bag = [0 for _ in range(len(words))]
