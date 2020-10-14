@@ -68,11 +68,6 @@
          "patterns": ["cya", "talk to you later", "take care", "see you next time"],
          "responses": ["See you again"]
          
-         },
-        {"tag": "finance",
-         "patterns": ["what is finance", "explain finance", "tell me about finance"],
-         "responses": ["Finance is the management of large amounts of money, especially by governments or large companies."]
-         
         },
         {"tag":"capitalization",
          "patterns":["what is market capitalization","explain market capitalization","tell me about market capitalization","what's market capitalization","can i know market capitalization"], 
