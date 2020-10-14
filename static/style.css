@@ -1,28 +1,38 @@
 #textInput {
     border: none;
-    border-bottom: 3px solid aqua;
+    border-bottom: 1px solid blue;
+    
 }
 .userText {
-    color: white;
+    color: darkred;
     font-family: monospace;
     font-size: 17px;
     text-align: right;
     line-height: 30px;
 }
 .userText span {
-    background-color: #009688;
+    background-color: #ffffff;
     padding: 10px;
     border-radius: 2px;
 }
 .botText {
-    color: white;
+    color: blue;
     font-family: monospace;
     font-size: 17px;
     text-align: left;
     line-height: 30px;
 }
 .botText span {
-    background-color: #EF5350;
+    background-color: #ffffff;
     padding: 10px;
     border-radius: 2px;
 }
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+}
+
+
