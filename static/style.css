@@ -1,0 +1,56 @@
+#textInput {
+    border: none;
+    border-bottom: 1px solid blue;
+    
+}
+.userText {
+    color: darkred;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+.userText span {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 2px;
+}
+.botText {
+    color: blue;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+.botText span {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 2px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both; 
+}
+p6{
+    font-size: 14px;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+} 
+.jumbotron{
+    font-family:sans-serif;
+
+}
