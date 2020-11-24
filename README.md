@@ -17,7 +17,7 @@
 - Due to over 250 terms, manual insertion of terms in the Json formated file became tedious and prone to duplication. One way that I used to inspect duplication is to look at the probability of the selected word. Duplicated words usually have probability of about 50%. 
 - Spelling mistakes while inserting terms. Aside from running spell checks, I manually checked for mistakes after deployment.
 
-**Methodology**
+**Methodology:**
 1. Import all libraries used such as: Numpy, Tensorflow, JSON, NLTK.
 2. Upload intent. Intent for this projet is written in JSON. It is a very useful format to store and transfer data from one place to another.
 3. Next, all words were stemmed using Lancaster Stemmer. For example, the word "roaster", "roasting", "roasted" are shortened to "roast". You can also use other stemmer such as Porter. The difference is how the words are stemmed. The word "stabil" remains the same after Porter however, stemmed to "stabl" in Lancaster! Another option is to do lemmatization. 
@@ -28,17 +28,17 @@
 
 **Bot Responses to users' questions**
 
-1. **Response to facts.**
+1. Response to facts.
 <p align="center">
   <img width="800" height="550" src="https://github.com/Hafizah/Financial-Chatbot-Model-Deployment-Using-Deep-Learning/blob/main/result%20images/Facts.jpg">
 </p>
 
-2. **Response to greetings and jokes.**
+2. Response to greetings and jokes.
 <p align="center">
   <img width="800" height="600" src="https://github.com/Hafizah/Financial-Chatbot-Model-Deployment-Using-Deep-Learning/blob/main/result%20images/greeting%20and%20jokes.jpg">
 </p>
 
-3. **Response to unrecognised words.**
+3. Response to unrecognised words.
 <p align="center">
   <img width="600" height="250" src="https://github.com/Hafizah/Financial-Chatbot-Model-Deployment-Using-Deep-Learning/blob/main/result%20images/Wrong%20words.jpg">
 </p>
