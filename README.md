@@ -1,8 +1,7 @@
 # Financial Chatbot using Deep Learning
 **A chatbot** is an artificial intelligence program and a Human–computer Interaction (HCI) model (Bansal & Khan, 2018). Simply, chatbot is a computer program that can hold a conversation with users (humans or another bots). In this project, the chatbot (Bela) uses Natural Language Processing, sentiment analysis and deep learning to communicate in human language. 
 
-**Objective:** To create and deploy a financial chatbot that can define preset financial terminology.
-
+**Objective:** To create and deploy a financial chatbot that can define preset financial terminology. \n
 **Backend:** Python
 
 **Frontend:** HTML, CSS, BOOTSTRAP
