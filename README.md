@@ -15,7 +15,7 @@
 4. Deployed model.
 
 **Challenges:**
-- Due to over 250 terms, the manual insertion of financial terms in the JSON format became tedious and prone to duplication. One way that I used to inspect duplication is to look at the probability of the selected words. Duplicated words usually have probability of about 50%. 
+- Due to over 250 terms, the manual insertion of financial terms in JSON format was tedious and has high tendency for terms duplication. One way that I used to inspect duplication is to look at the probability of the selected words. Duplicated words usually have probability of about 50%. 
 - Spelling mistakes while inserting terms. Aside from running spell checks, I manually checked for mistakes after deployment.
 - Integrating all the files needed to deploy the model. I had to seperate 'punkt' into a seperate file instead of grouping together it with other libraries for a successful deployment.
 
