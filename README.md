@@ -15,9 +15,11 @@
 4. Deployed model.
 
 **Challenges:**
-- Due to over 250 terms, the manual insertion of financial terms in JSON format was tedious and has high tendency for terms duplication. One way that I used to inspect duplication is to look at the probability of the selected words. Duplicated words usually have probability of about 50%. 
-- Spelling mistakes while inserting terms. Aside from running spell checks, I manually checked for mistakes after deployment.
-- Integrating all the files needed to deploy the model. I had to seperate 'punkt' into a seperate file instead of grouping together it with other libraries for a successful deployment.
+- Due to over 250 terms, the manual insertion of financial terms in text corpus was tedious and has high tendency for terms duplication. One way that I used to inspect duplication is to look at the probability of the selected words. Duplicated words usually have probability of about 50%. 
+- Spelling mistakes while inserting terms. Aside from running spell checks, I checked for spelling mistakes manually.
+- Bot get confused with terms with similar words. For example, "put warrant", "call warrant", "warrant". After several trials, by adding more styles of asking questions in "patterns" in text corpus, the bot was able to differentiate between these terms.
+- Bot did not recognize short form of terms. For example: CPI for "consumer price index". Make sure to add common words that users will tend to use. Users are likely to type NASDAQ instead of "National Association of Securities Dealers Automated Quotations". 
+- Integrating all the files needed to deploy the model. I had to seperate 'punkt' into a seperate file instead of grouping it together with other libraries for successful deployment.
 
 **Methodology:**
 1. Import all libraries used such as: Numpy, Tensorflow, JSON, NLTK.
