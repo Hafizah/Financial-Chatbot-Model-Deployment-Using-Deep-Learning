@@ -6,7 +6,7 @@
 **Result:** RNN model with accuracy of 95%.<br>
 **Backend:** Python. <br>
 **Frontend:** HTML, CSS, BOOTSTRAP. <br>
-**Deployment:** Flask, Heroku <br>
+**Deployment:** Flask, Heroku. <br>
 
 **Steps taken:**
 1. Built and stored over 250 financial terminology in JSON formated file.
