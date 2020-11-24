@@ -26,6 +26,19 @@
 6. Build user response function using while loop to control responses. One very important condition to set is the probability of the correct answers. The number chosen really depends on how good your model set to learn. In this project, I dropped the probability from 0.9 to 0.75 to reduce the probability of the bot making mistakes. I also added another condition where the bot response differently for probability <0.75.
 7. Lastly, work on the frontend of the web app and deploy.
 
-**Frontend Visuals**
+**Bot Responses to users' questions**
 
-[Facts]('https://github.com/Hafizah/Financial-Chatbot-Model-Deployment-Using-Deep-Learning/blob/main/result%20images/Facts.jpg')
+1. **Response to facts.**
+<p align="center">
+  <img width="800" height="550" src="https://github.com/Hafizah/Financial-Chatbot-Model-Deployment-Using-Deep-Learning/blob/main/result%20images/Facts.jpg">
+</p>
+
+2. **Response to greetings and jokes.**
+<p align="center">
+  <img width="800" height="600" src="https://github.com/Hafizah/Financial-Chatbot-Model-Deployment-Using-Deep-Learning/blob/main/result%20images/greeting%20and%20jokes.jpg">
+</p>
+
+3. **Response to unrecognised words.**
+<p align="center">
+  <img width="600" height="250" src="https://github.com/Hafizah/Financial-Chatbot-Model-Deployment-Using-Deep-Learning/blob/main/result%20images/Wrong%20words.jpg">
+</p>
