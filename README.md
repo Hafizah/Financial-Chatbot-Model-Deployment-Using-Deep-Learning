@@ -28,4 +28,4 @@
 
 **Frontend Visuals**
 
-[chATBOT]('')
+[Facts]('https://github.com/Hafizah/Financial-Chatbot-Model-Deployment-Using-Deep-Learning/blob/main/result%20images/Facts.jpg')
