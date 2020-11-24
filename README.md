@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img width="600" height="250" src=" ">
+  <img width="600" height="250" src="https://github.com/Hafizah/Financial-Chatbot-Model-Deployment-Using-Deep-Learning/blob/main/result%20images/country.jpg">
 </p>
 
 **Objective:** To create and deploy a financial chatbot that can define preset financial terminology. <br>
