@@ -1,6 +1,6 @@
 ![Title](https://github.com/Hafizah/Financial-Chatbot-Model-Deployment-Using-Deep-Learning/blob/main/result%20images/Title.png)
 
-**A chatbot** is an artificial intelligence program and a Human–computer Interaction model (*Bansal & Khan, 2018*). Simply, chatbot is a computer program that can hold a conversation with users (humans or another bots). In this project, the chatbot (Bela) uses Natural Language Processing, sentiment analysis and deep learning to communicate in human language. The popularity of chatbot spiked since 2016 and the usage of keyword "chatbot" and other related terms are highest in United States compared to other countries as seen in the figures below from Scopus. (https://www.scopus.com/home.uri)
+**A chatbot** is an artificial intelligence program and a Human–computer Interaction model (*Bansal & Khan, 2018*). Simply, chatbot is a computer program that can hold a conversation with users (humans or another bots). In this project, the chatbot (Bela) uses Natural Language Processing, sentiment analysis and deep learning to communicate in human language. The popularity of chatbot spiked since 2016 and the usage of keyword "chatbot" and other related terms are highest in United States compared to other countries as seen in the figures below from [Scopus](https://www.scopus.com/home.uri)
 
 <p align="center">
   <img width="700" height="350" src="https://github.com/Hafizah/Financial-Chatbot-Model-Deployment-Using-Deep-Learning/blob/main/result%20images/Year_.jpg">
